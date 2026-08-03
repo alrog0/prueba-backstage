@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: mi-primera-api
+  description: API de prueba para ver relaciones en el catálogo
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: user:default/guest
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: API de prueba
+      version: 1.0.0
+    paths: {}
