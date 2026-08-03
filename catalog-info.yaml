@@ -7,3 +7,5 @@ spec:
   type: service
   lifecycle: experimental
   owner: user:default/guest
+  providesApis:
+    - mi-primera-api
